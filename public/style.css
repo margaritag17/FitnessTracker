@@ -13,15 +13,15 @@ body,
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #441546;
   color: #ffffff;
   height: 80px;
   padding: 10px;
-  line-height: 3;
+  line-height: 4;
   font-size: 1.2rem;
 }
 
@@ -71,7 +71,7 @@ select:hover {
 
 select:focus {
   border-color: #aaa;
-  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 1px 3px rgba(134, 64, 151, 0.7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
   color: #222;
   outline: none;
@@ -425,13 +425,3 @@ form > button {
   padding: 10px;
 }
 
-@keyframes toast {
-  50% {
-    opacity: 1;
-    right: 10px;
-  }
-  100% {
-    opacity: 0;
-    right: -320px;
-  }
-}

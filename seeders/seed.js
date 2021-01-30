@@ -90,7 +90,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Quad Press",
         duration: 30,
-        weight: 300,
+        weight: 290,
         reps: 10,
         sets: 4
       }
